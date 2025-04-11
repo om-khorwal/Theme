@@ -18,7 +18,9 @@
       </div>
       <div>
         {%if shop.customer_accounts_enabled%}
-          <a href="/account">Account</a>
+          {% if customer %}
+            <a href="/account">Account</a>
+          {% endif %}
         {%else %}
           login
         {%endif %}
