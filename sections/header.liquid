@@ -2,29 +2,31 @@
   <div class="main">
     <h1>{{ shop.name }}</h1>
     <div class="nav">
-      {%for link in section.settings.menu.links %}
-      {%if link.links != blank%}
-        <div>
-          <button>
-            {{link.title}}
-          </button>
-        </div>
-      {% else %}
-      <a href="{{link.url}}"></a>
+      {% for link in section.settings.menu.links %}
+        {% if link.links != blank %}
+          <div>
+            <button>
+              {{ link.title }}
+            </button>
+          </div>
+        {% else %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
-  {% schema %}
-  {
-    "name": " Header",
-    "settings": [
-      {
-        "type": "link_list",
-        "id": "menu",
-        "label": "menu",
-        "default": "main-menu "
-      } 
-      
-      ]
-  }
-  {% endschema %}
 </header>
+
+{% schema %}
+{
+  "name": "Header",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "default": "main-menu"
+    }
+  ]
+}
+{% endschema %}
