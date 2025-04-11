@@ -14,16 +14,14 @@
         {% endif %}
       {% endfor %}
       <div class="cart">
-        <a  href="/cart">{%render 'icon-cart'%}</a>
-      </div>
-      <div>
-        {%if shop.customer_accounts_enabled%}
+        <a href="/cart">{% render 'icon-cart' %}</a>
+        {% if shop.customer_accounts_enabled %}
           {% if customer %}
             <a href="/accounts">Account</a>
           {% endif %}
-        {%else %}
+        {% else %}
           login
-        {%endif %}
+        {% endif %}
       </div>
     </div>
   </div>
