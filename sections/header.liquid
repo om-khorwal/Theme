@@ -3,8 +3,14 @@
     <h1>{{ shop.name }}</h1>
     <div class="nav">
       {%for link in section.settings.menu.links %}
-        <a href="{{ link.url }}">{{ link.title }}</a>
-      {% endfor %}
+      {%if link.links != blank%}
+        <div>
+          <button>
+            {{link.title}}
+          </button>
+        </div>
+      {% else %}
+      <a href="{{link.url}}"></a>
     </div>
   </div>
   {% schema %}
@@ -14,7 +20,7 @@
       {
         "type": "link_list",
         "id": "menu",
-        "label": "Menu",
+        "label": "menu",
         "default": "main-menu "
       } 
       
