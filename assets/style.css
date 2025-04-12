@@ -36,6 +36,7 @@ transition: background-color 0.3s;
 }
 
 .cart{
+display:flex;
 justify-content: center;
 align-items:centre;
 padding:10px;
@@ -59,8 +60,6 @@ transition: background-color 0.3s;
 background-color: #ddd;
 }  
 
-<<<<<<< HEAD
-=======
 .cart text{
   display:flex;
   justify-content:center;
@@ -72,4 +71,3 @@ background-color: #ddd;
   border-radius: 5px;
   transition: background-color 0.3s;
   }
->>>>>>> 522394a (cart)
