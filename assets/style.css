@@ -47,8 +47,10 @@ color: black;
 
 .cart svg{
 display:flex;
+justify-items: center;
 justify-content:center;
 align-items:center;
+align-content: center;
 text-decoration:none;
 width: 24px;
 height: 24px;
