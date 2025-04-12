@@ -73,9 +73,7 @@ background-color: #ddd;
 }  
 
 .cart h2{
-  
-  display:flex;
-  justify-content:center;
+  Justify-content:center;
   align-items:center;
   text-decoration:none;
   width: 24px;

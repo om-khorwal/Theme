@@ -21,7 +21,7 @@
             {{ 'logout' | customer_logout_link | replace: '<a', '<a' }}
           {% else %}
             <h2>{{ 'Login' | customer_login_link | replace: '<a', '<a' }}</h2>
-            <br>
+            
             <h2>{{ 'Register' | customer_register_link | replace: '<a', '<a' }}</h2>
           {% endif %}
         {% endif %}
