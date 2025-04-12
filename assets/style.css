@@ -19,14 +19,11 @@ background-color:red;
 display:flex;
 justify-content: space-between;
 align-items:centre;
-padding:10px;
-width:30%;
+width:auto;
 font-size: 30px;
 color: black;
 }
-.main h1:hover{
-background-color: #ddd;
-}
+
 
 .nav{
 display:flex;
