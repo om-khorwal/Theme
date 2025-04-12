@@ -50,7 +50,7 @@ display:flex;
 justify-content: center;
 align-items:centre;
 padding:10px;
-width:20%;
+width:40%;
 font-size: 10px;
 color: black;
 }
@@ -73,7 +73,8 @@ background-color: #ddd;
 }  
 
 .cart h2{
-  Justify-content:center;
+  display:flex;
+  justify-content:center;
   align-items:center;
   text-decoration:none;
   width: 24px;
