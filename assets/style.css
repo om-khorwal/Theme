@@ -36,6 +36,7 @@ transition: background-color 0.3s;
 }
 
 .cart{
+display:flex;
 justify-content: center;
 align-items:centre;
 padding:10px;
