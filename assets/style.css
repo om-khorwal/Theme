@@ -36,7 +36,6 @@ transition: background-color 0.3s;
 }
 
 .cart{
-display:flex;
 justify-content: center;
 align-items:centre;
 padding:10px;
@@ -59,3 +58,16 @@ transition: background-color 0.3s;
 .cart svg:hover{
 background-color: #ddd;
 }  
+
+
+.cart text{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-decoration:none;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  }
