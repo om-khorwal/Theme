@@ -1,4 +1,11 @@
-<footer>
-    <p>© {{ 'now' | date: "%Y" }} {{ shop.name }}</p>
-  </footer>
-  
+<footer class="site-footer">
+  <p>© {{ 'now' | date: "%Y" }} {{ shop.name }}. All rights reserved.</p>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [],
+  "blocks": []
+}
+{% endschema %}

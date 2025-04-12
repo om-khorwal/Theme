@@ -1,0 +1,32 @@
+<section class="collections-grid">
+  {% for block in section.blocks %}
+    {% assign collection = block.settings.collection %}
+    <div class="collection-item">
+      <a href="{{ collection.url }}">
+        <h2>{{ collection.title }}</h2>
+      </a>
+    </div>
+  {% endfor %}
+</section>
+
+
+{% schema %}
+{
+  "name": "Collections Grid",
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Choose collection"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 4,
+  "settings": []
+}
+{% endschema %}
