@@ -10,7 +10,7 @@ width:100%;
 .main{
 display:flex;
 justify-content: space-between;
-align-items:centre;
+align-items:center;
 padding:10px;
 background-color:red;
 }
@@ -18,7 +18,7 @@ background-color:red;
 .main h1{
 display:flex;
 justify-content: space-between;
-align-items:centre;
+align-items:center;
 width:auto;
 font-size: 30px;
 color: black;
