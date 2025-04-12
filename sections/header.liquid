@@ -18,10 +18,12 @@
         {% if shop.customer_accounts_enabled %}
           {% if customer %}
             <a href="/accounts">accounts</a>
+            {{ 'logout' | customer_logout_link | replace: '<a', '<a' }}
           {% else %}
-          <h2>Login</h2>
+            <h2>{{ 'Login' | customer_login_link | replace: '<a', '<a' }}</h2>
+            <h2>{{ 'Register' | customer_register_link | replace: '<a', '<a' }}</h2>
+          {% endif %}
         {% endif %}
-        {% endif %}       
       </div>
     </div>
   </div>
