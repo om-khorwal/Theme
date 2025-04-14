@@ -1,16 +1,16 @@
 <section class="collections-grid">
-  {% for block in section.blocks limit:6 %}
+  {% for block in section.blocks limit: 6 %}
     {% assign collection = block.settings.collection %}
     <div class="collection-item">
       <a href="{{ collection.url }}">
         {% if collection.image %}
-          <img 
-            src="{{ collection.image | img_url: 'medium' }}" 
-            alt="{{ collection.title }}" 
+          <img
+            src="{{ collection.image | img_url: 'medium' }}"
+            alt="{{ collection.title }}"
             class="collection-image"
             width="300"
             height="200"
-          />
+          >
         {% endif %}
         <h2>{{ collection.title }}</h2>
       </a>
@@ -44,12 +44,3 @@
   ]
 }
 {% endschema %}
-<script>
-  function switchTab(tabId) {
-    document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-    document.querySelectorAll('.product-grid').forEach(grid => grid.classList.remove('active'));
-    
-    document.getElementById(tabId).classList.add('active');
-    event.target.classList.add('active');
-  }
-</script>

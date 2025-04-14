@@ -46,3 +46,12 @@
     </div>
   </div>
 </section>
+<script>
+  function switchTab(tabId) {
+    document.querySelectorAll('.tab').forEach((tab) => tab.classList.remove('active'));
+    document.querySelectorAll('.product-grid').forEach((grid) => grid.classList.remove('active'));
+
+    document.getElementById(tabId).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>

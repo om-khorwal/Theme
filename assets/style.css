@@ -208,6 +208,8 @@ background-color: #ddd;
   padding: 10px;
   transition: all 0.3s ease;
   min-width: max-content;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-grid:not(.active) {
