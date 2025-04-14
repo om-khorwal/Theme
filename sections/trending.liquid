@@ -1,0 +1,18 @@
+<section class="trending">
+  <img src="{{ section.settings.trending_image | image_url: 'master' }}" alt="Trending"
+  width="{{ section.settings.trending_image.width }}"
+  height="{{ section.settings.trending_image.height }}">
+</section>
+
+{% schema %}
+{
+  "name": "Trending Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "trending_image",
+      "label": "Trending Image"
+    }
+  ]
+}
+{% endschema %}
