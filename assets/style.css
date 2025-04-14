@@ -116,7 +116,7 @@ background-color: #ddd;
   grid-auto-rows: auto; /* let height adjust to content */
   gap: 2rem;
   padding: 2rem;
-  max-width: 1000px;
+  max-width: 70%;
   margin: auto;
 }
 
