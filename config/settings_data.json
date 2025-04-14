@@ -20,7 +20,7 @@
         "type": "hero",
         "settings": {
           "hero_image": "shopify://shop_images/animal-6845972.jpg",
-          "hero_text": "Welcome to {{shop.name}}"
+          "hero_text": "Welcome To New Styles"
         }
       },
       "collection-grid": {
@@ -29,7 +29,9 @@
       },
       "trending": {
         "type": "trending",
-        "settings": {}
+        "settings": {
+          "trending_image": "shopify://shop_images/animal-6845972.jpg"
+        }
       },
       "footer": {
         "type": "footer",
