@@ -32,6 +32,18 @@
               "collection": "tshirt"
             }
           },
+          "collection_G7H8n4": {
+            "type": "collection",
+            "settings": {
+              "collection": "tshirt"
+            }
+          },
+          "collection_jFrAa4": {
+            "type": "collection",
+            "settings": {
+              "collection": "tshirt"
+            }
+          },
           "collection_MP4ywB": {
             "type": "collection",
             "settings": {
@@ -53,6 +65,8 @@
         },
         "block_order": [
           "collection_VhKChA",
+          "collection_G7H8n4",
+          "collection_jFrAa4",
           "collection_MP4ywB",
           "collection_UpkLQw",
           "collection_6PLVBr"
