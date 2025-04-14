@@ -95,7 +95,7 @@ background-color: #ddd;
 .hero img {
   width: 100%;
   height: auto;
-  display: block;
+  display: flex;
 }
 
 .hero-text {
