@@ -1,5 +1,5 @@
 <section class="collections-grid">
-  {% for block in section.blocks %}
+  {% for block in section.blocks limit:6 %}
     {% assign collection = block.settings.collection %}
     <div class="collection-item">
       <a href="{{ collection.url }}">

@@ -113,10 +113,13 @@ background-color: #ddd;
 .collections-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-auto-rows: auto; /* let height adjust to content */
   gap: 2rem;
   padding: 2rem;
-  background-color: #f9f9f9;
+  max-width: 1000px;
+  margin: auto;
 }
+
 
 .collection-item {
   background-color: #fff;
