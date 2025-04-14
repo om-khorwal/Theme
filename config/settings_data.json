@@ -29,7 +29,7 @@
           "collection_VhKChA": {
             "type": "collection",
             "settings": {
-              "collection": "tshirt"
+              "collection": "sdfsdf"
             }
           },
           "collection_G7H8n4": {
@@ -47,7 +47,7 @@
           "collection_MP4ywB": {
             "type": "collection",
             "settings": {
-              "collection": "tshirt"
+              "collection": "sdfsdf"
             }
           },
           "collection_UpkLQw": {
@@ -81,6 +81,10 @@
       },
       "footer": {
         "type": "footer",
+        "settings": {}
+      },
+      "featured": {
+        "type": "featured",
         "settings": {}
       }
     },
