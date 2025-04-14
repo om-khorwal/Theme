@@ -25,6 +25,38 @@
       },
       "collection-grid": {
         "type": "collection-grid",
+        "blocks": {
+          "collection_VhKChA": {
+            "type": "collection",
+            "settings": {
+              "collection": "tshirt"
+            }
+          },
+          "collection_MP4ywB": {
+            "type": "collection",
+            "settings": {
+              "collection": "tshirt"
+            }
+          },
+          "collection_UpkLQw": {
+            "type": "collection",
+            "settings": {
+              "collection": "tshirt"
+            }
+          },
+          "collection_6PLVBr": {
+            "type": "collection",
+            "settings": {
+              "collection": "tshirt"
+            }
+          }
+        },
+        "block_order": [
+          "collection_VhKChA",
+          "collection_MP4ywB",
+          "collection_UpkLQw",
+          "collection_6PLVBr"
+        ],
         "settings": {}
       },
       "trending": {
