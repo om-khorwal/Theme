@@ -1,14 +1,15 @@
 <section class="hero">
-    <img
+  <img
     src="{{ section.settings.hero_image | image_url: width: 1600 }}"
     alt="Hero"
     width="{{ section.settings.hero_image.width }}"
-    height="{{ section.settings.hero_image.height }}">
-      <div class="hero-text">{{ section.settings.hero_text }}</div>
+    height="{{ section.settings.hero_image.height }}"
+  >
+  <div class="hero-text">{{ section.settings.hero_text }}</div>
 </section>
 
 {% schema %}
-{ 
+{
   "name": "Hero Banner",
   "settings": [
     {

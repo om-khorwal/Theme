@@ -1,7 +1,10 @@
 <section class="trending">
-  <img src="{{ section.settings.trending_image | image_url: widhth: 1600 }}" alt="Trending"
-  width="{{ section.settings.trending_image.width }}"
-  height="{{ section.settings.trending_image.height }}">
+  <img
+    src="{{ section.settings.trending_image | image_url: width: 1600 }}"
+    alt="Trending"
+    width="{{ section.settings.trending_image.width }}"
+    height="{{ section.settings.trending_image.height }}"
+  >
 </section>
 
 {% schema %}
@@ -16,4 +19,3 @@
   ]
 }
 {% endschema %}
-
